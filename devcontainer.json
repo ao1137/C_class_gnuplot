@@ -1,0 +1,17 @@
+{
+  "name": "My Codespace with Gnuplot",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r",
+        "mads-hartmann.bash-ide-vscode"
+      ]
+    }
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  }
+}
